@@ -1,0 +1,48 @@
+// Configuração centralizada — Dra. Leandra Coelho
+// Para atualizar fotos após aprovação da cliente, envie os arquivos para a pasta /images
+// e preencha os caminhos abaixo (ex.: './images/dra-leandra-hero.jpg').
+
+window.CLINIC_CONFIG = {
+  professional: {
+    name: 'Dra. Leandra Coelho',
+    specialty: 'Harmonização Facial',
+    registration: 'CRBM 10896',
+    registrationNote:
+      'CRBM 10896 — Registro informado em perfil profissional, sujeito à confirmação antes da publicação.',
+    heroPortraitUrl: '', // Ex.: './images/dra-leandra-hero.jpg'
+    aboutPortraitUrl: '', // Ex.: './images/dra-leandra-sobre.jpg'
+  },
+
+  contact: {
+    whatsappUrl: 'https://wa.me/message/V3JPFR4RBTRML1',
+    instagramHandle: '@dra.leandracoelho',
+    instagramUrl: 'https://www.instagram.com/dra.leandracoelho/',
+    googleReviewsUrl: '', // Preencher com a URL oficial da ficha no Google quando disponível
+  },
+
+  proceduresImages: {
+    harmonizacao: '', // Ex.: './images/proc-harmonizacao.jpg'
+    enzimas: '',      // Ex.: './images/proc-enzimas.jpg'
+    microagulhamento: '', // Ex.: './images/proc-microagulhamento.jpg'
+    melasma: '',      // Ex.: './images/proc-melasma.jpg'
+  },
+
+  resultsGallery: [
+    {
+      category: 'Harmonização Facial',
+      imageUrl: '', // Ex.: './images/resultado-01.jpg' (somente com autorização)
+    },
+    {
+      category: 'Cuidados Estéticos',
+      imageUrl: '',
+    },
+    {
+      category: 'Saúde da Pele',
+      imageUrl: '',
+    },
+    {
+      category: 'Harmonização Facial',
+      imageUrl: '',
+    },
+  ],
+};
